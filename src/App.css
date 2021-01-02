@@ -1,0 +1,112 @@
+
+  body {
+    background-image: linear-gradient(120deg, #f66565 0%, #050403 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    
+  }
+  .backgroundph {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 570px;
+    padding-top: 60px;
+  }
+
+ 
+  .content , h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form input,
+  form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+  }
+  form button {
+    color: #ffffff;
+    background: #570505;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form button:hover {
+    background: #000000;
+    color: white;
+  }
+  .todo-container {
+    display:flex;
+    flex-direction: row;
+    width:400px;
+    margin-left:440px;
+    margin-top:0px;
+    margin-bottom:20px;
+    justify-content: space-between;
+    border-left: 4px solid #000000;
+    padding: 3px;
+    cursor:pointer;
+    caption-side: bottom;
+    line-height: 2em;
+
+    }
+  
+  .totask-item__text--completed {
+    text-decoration: line-through;
+    color:white;
+  }
+  .btn {
+    padding: 1rem;
+    font-size: 1rem; 
+    border: none;
+    background: #ff6f47;
+    display: inline-block;
+    position: relative;
+    text-align:center;
+    left:35%; 
+    border-radius: 8px;
+     
+}
+  .btn i {
+     padding:4px;
+  }
+  
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.edit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100px;
+    border:#f6d365
+}
+.edit, input {
+      display:block;
+      align-items: center;
+}
+
+
+
+
+/* * { */
+    /* margin: 0; */
+    /* padding: 0;
+    box-sizing: border-box;
+    @import 'compass'
+    *,
+    *:before,
+    *:after
+      +box-sizing(border-box)
+  } */
