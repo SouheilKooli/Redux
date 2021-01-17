@@ -1,20 +1,12 @@
-import React from 'react';
-import './App.css';
-import AddTask from './Components/Add';
-import ListTask from './Components/list';
-import Filters from './Components/Filters';
+import React from "react";
+import AddTask from "./Components/Add";
+import ListTask from "./Components/list";
 
 function App() {
   return (
-
-    <div className="App">
-       <h1> TO-DO APP</h1>
-       <AddTask />
-       <ListTask />
-       <Filters />
-       
-       
-
+    <div className="container">
+      <AddTask />
+      <ListTask />
     </div>
   );
 }

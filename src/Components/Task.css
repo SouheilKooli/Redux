@@ -1,0 +1,39 @@
+.task-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 5;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+.description {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+.edit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75%;
+}
+span {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.icon {
+    cursor: pointer;
+    size: 24px;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.yellow{
+    background-color: #fcdb03 !important;
+    border-color: #fcdb03 !important;
+    margin: 10
+}
